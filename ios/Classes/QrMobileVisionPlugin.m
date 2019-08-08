@@ -252,7 +252,6 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
         result(nil);
     } else if ([@"toggleFlash" isEqualToString:call.method]) {
         [self toggleFlash];
-        result(nil);
     } else if ([@"heartbeat" isEqualToString:call.method]) {
         [self heartBeat];
         result(nil);
